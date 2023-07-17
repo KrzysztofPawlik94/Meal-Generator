@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.header h1 {
+  font-size: 90px;
+  font-weight: 600;
+  font-family: 'Niconne', cursive;
+  color: #198754;
+  text-shadow: 2px 2px 0px #198754,
+  4px 4px 0 #ffffff,
+  6px 6px 0 #caee2b,
+  8px 8px 0 #83af5f,
+  10px 10px 0 #9acb69;
+}

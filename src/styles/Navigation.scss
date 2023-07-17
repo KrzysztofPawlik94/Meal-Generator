@@ -1,0 +1,31 @@
+.navigation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.navbar {
+  background-color: #28a745;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.navbar-brand {
+  color: #ffffff;
+  margin-left: 50px;
+
+
+}
+
+.nav-link {
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.nav-link:hover {
+  color: #d4edda;
+}
+
