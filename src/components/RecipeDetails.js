@@ -34,7 +34,6 @@ function RecipeDetails() {
 
     const { title, image, summary } = recipe;
 
-    // Funkcja do usuwania tagów HTML
     const stripTags = (htmlString) => {
         const temporalDivElement = document.createElement('div');
         temporalDivElement.innerHTML = htmlString;
@@ -47,7 +46,7 @@ function RecipeDetails() {
                 <h2 className="recipe-title">{title}</h2>
                 <img className="recipe-image" src={image} alt={title} />
                 <p className="recipe-summary">{stripTags(summary)}</p>
-                {/* Display other recipe details */}
+
             </div>
         </Container>
     );
