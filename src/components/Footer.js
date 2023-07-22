@@ -3,7 +3,7 @@ import '../styles/footer.scss';
 
 function Footer() {
     return (
-        <footer>
+        <footer className="footer">
             <div>
                 <p>© 2023 Meal-generator. All rights reserved.</p>
             </div>
